@@ -1,0 +1,23 @@
+{
+  "name": "pinxterapp/yii2-pinxter-deploy-helper",
+  "version": "1.0.0",
+  "type": "yii2-extension",
+  "description": "Yii2 Pinxter Deploy Helper",
+  "authors": [
+    {
+      "name": "Dmitriy Yakushev",
+      "email": "dmitriyzp@pinxterapp.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "yii\\pinxter\\deploy\\helper\\": "src/"
+    }
+  },
+  "require": {
+    "yiisoft/yii2-httpclient": "~2.0.0"
+  },
+  "extra": {
+    "bootstrap": "yii\\pinxter\\deploy\\helper\\Bootstrap"
+  }
+}
